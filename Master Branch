@@ -1,0 +1,53 @@
+<?php
+
+$MyFirstVariable = "Anthony"; //Creates a variable of my First Name. 
+
+
+
+echo 'My first variable was named $MyFirstVariable.';
+
+// displays name I chose for first variable in PhP
+
+echo "\n";  
+
+
+
+
+
+echo nl2br ("The value of my variable was $MyFirstVariable."); 
+
+// displays content of first variable 
+
+echo "\n"; 
+
+
+
+$empty = []; // creates an empty array
+
+
+
+$info= ['Anthony','Ceddia','Fall 2020']; // first, Last and current semester stored in array
+
+var_dump($info); //displays array
+
+
+
+//create array of numbers 1-50
+
+for ($i = 1; $i <= 50; $i++) {
+
+        $numbers[] = $i;
+
+     }
+
+var_dump($numbers); // displays array
+
+
+
+  // adds the two strings values that were answers to first questions.
+
+    $NeedVar = "MyFirstVariable";
+
+    echo (strlen($MyFirstVariable) + strlen($NeedVar)); 
+
+?>
